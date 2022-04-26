@@ -20,8 +20,8 @@ else
             Console.WriteLine("4-я четверть ");
             else
             {
-                if((x!=0) && (y!=0))
-                Console.WriteLine();
+                if((x==0) || (y==0))
+                Console.WriteLine("x ≠ 0 и y ≠ 0");
             }
         }
     }
