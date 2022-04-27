@@ -1,4 +1,9 @@
-﻿int GetValue(string num)
+﻿// Напишите программу, которая принимает на вход пятизначное
+// число и проверяет, является ли оно палиндромом
+
+
+
+int GetValue(string num)
 {
     System.Console.WriteLine($"{num}: ");
     string getValueStr = Console.ReadLine()!;
